@@ -1,0 +1,13 @@
+# This is the default config file for AntiProxyBypass.
+# This config was generated for version ${project.version}.
+
+# The IP addresses of the proxy servers.
+# If you want to whitelist multiple proxy servers, you can just add multiple IP addresses.
+# IMPORTANT: Do NOT use '0.0.0.0' or '127.0.0.1' as an IP address.
+# IMPORTANT: Do NOT enter a port here.
+proxy-addresses:
+  - 127.0.0.1
+
+# The kick message a player receives when joining over a foreign proxy.
+# You can use '\n' to go to a new line.
+kick-message: "&cPlease join directly on example.com! \n&aThis is the default message."

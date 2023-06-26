@@ -1,0 +1,8 @@
+name: AntiProxyBypass
+version: '${project.version}'
+main: net.earth.antiproxybypass.AntiProxyBypass
+api-version: 1.13
+commands:
+  apb:
+    usage: /<command> <reload|version>
+    permission: apb.use
